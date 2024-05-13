@@ -1,0 +1,5 @@
+#!/bin/bash
+
+#srun --cpus-per-task=2 --time=00:10:00 singularity exec /proj/applied_bioinformatics/users/x_erhar/myimage.sif fastqc /proj/applied_bioinformatics/users/x_erhar/MedBioinfo/data/sra_fastq/ERR6913102_1.fastq.gz /proj/applied_bioinformatics/users/x_erhar/MedBioinfo/data/sra_fastq/ERR6913102_2.fastq.gz -o /proj/applied_bioinformatics/users/x_erhar/MedBioinfo/analyses/fastqc --noextract
+
+srun --cpus-per-task=2 --time=00:30:00 singularity exec /proj/applied_bioinformatics/users/x_erhar/myimage.sif xargs -I{} -a /proj/applied_bioinformatics/users/x_erhar/MedBioinfo/analyses/x_erhar_run_accessions.txt fastqc /proj/applied_bioinformatics/users/x_erhar/MedBioinfo/data/sra_fastq/{}_1.fastq.gz /proj/applied_bioinformatics/users/x_erhar/MedBioinfo/data/sra_fastq/{}_2.fastq.gz -o /proj/applied_bioinformatics/users/x_erhar/MedBioinfo/analyses/fastqc --noextract 
