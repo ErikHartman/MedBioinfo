@@ -1,0 +1,9 @@
+Bootstrap: docker
+From: staphb/kraken2
+
+%post
+    # Update and install dependencies
+    apt-get update
+
+%environment
+    export PATH=/usr/local/bin:$PATH
