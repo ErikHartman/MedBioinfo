@@ -5,3 +5,4 @@ data/merged_pairs
 data/reference_seqs
 data/sra_fastq
 *.sam
+.venv

@@ -27,7 +27,12 @@ accnum=$(sed -n "$SLURM_ARRAY_TASK_ID"p ${accnum_file})
 input_file="${datadir}/${accnum}.flash.extendedFrags.fastq" #to the merged reads
 
 # if the command below can't cope with compressed input
-srun gunzip "${input_file}.gz"
+if [ -e ${input_file} ]; then
+    echo "File already exists."
+else
+    srun gunzip "${input_file}.gz"
+fi
+
 
 # fastq to fasta
 srun --cpus-per-task=1 --time=00:30:00 singularity exec /proj/applied_bioinformatics/users/x_erhar/myimage.sif \
