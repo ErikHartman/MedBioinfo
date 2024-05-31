@@ -1,0 +1,68 @@
+[2024-05-29 10:01:44,660] multiqc                                            [DEBUG  ]  This is MultiQC v1.21
+[2024-05-29 10:01:44,662] multiqc                                            [DEBUG  ]  Command used: /usr/local/bin/multiqc --force --title x_erharh all kraken2 ./data/merged_pairs/ ./analyses/fastqc/ ./analyses/x_erhar_flash2.log ./analyses/bowtie/ ./analyses/kraken2/
+[2024-05-29 10:01:44,891] multiqc                                            [WARNING]  MultiQC Version v1.22.1 now available!
+[2024-05-29 10:01:44,891] multiqc                                            [DEBUG  ]  Latest MultiQC version is v1.22.1, released 2024-05-17
+[2024-05-29 10:01:44,891] multiqc                                            [DEBUG  ]  Working dir : /proj/applied_bioinformatics/users/x_erhar/MedBioinfo
+[2024-05-29 10:01:44,891] multiqc                                            [DEBUG  ]  Template    : default
+[2024-05-29 10:01:44,892] multiqc                                            [DEBUG  ]  Running Python 3.10.12 (main, Nov 20 2023, 15:14:05) [GCC 11.4.0]
+[2024-05-29 10:01:44,892] multiqc                                            [INFO   ]  Report title: x_erharh all kraken2
+[2024-05-29 10:01:44,892] multiqc                                            [DEBUG  ]  Analysing modules: custom_content, ccs, ngsderive, purple, conpair, isoseq, lima, peddy, somalier, methylqa, mosdepth, phantompeakqualtools, qualimap, bamdst, preseq, hifiasm, quast, qorts, rna_seqc, rockhopper, rsem, rseqc, busco, bustools, goleft_indexcov, gffcompare, disambiguate, supernova, deeptools, sargasso, verifybamid, mirtrace, happy, mirtop, sambamba, gopeaks, homer, hops, macs2, theta2, snpeff, gatk, htseq, bcftools, featureCounts, fgbio, dragen, dragen_fastqc, dedup, pbmarkdup, damageprofiler, mapdamage, biobambam2, jcvi, mtnucratio, picard, vep, bakta, prokka, qc3C, nanostat, samblaster, samtools, sexdeterrmine, seqera_cli, eigenstratdatabasetools, bamtools, jellyfish, vcftools, longranger, stacks, varscan2, snippy, umitools, truvari, megahit, bbmap, bismark, biscuit, diamond, hicexplorer, hicup, hicpro, salmon, kallisto, slamdunk, star, hisat2, tophat, bowtie2, bowtie1, cellranger, snpsplit, odgi, pangolin, nextclade, freyja, humid, kat, leehom, librarian, nonpareil, adapterRemoval, bbduk, clipandmerge, cutadapt, flexbar, sourmash, kaiju, bracken, kraken, malt, motus, trimmomatic, sickle, skewer, sortmerna, biobloomtools, fastq_screen, afterqc, fastp, fastqc, filtlong, prinseqplusplus, pychopper, porechop, pycoqc, minionqc, anglerfish, multivcfanalyzer, clusterflow, checkqc, bcl2fastq, bclconvert, interop, ivar, flash, seqyclean, optitype, whatshap, spaceranger, xenome, xengsort, metaphlan, seqwho
+[2024-05-29 10:01:44,892] multiqc                                            [DEBUG  ]  Using temporary directory for creating report: /tmp/tmppr1ul19o
+[2024-05-29 10:01:44,894] multiqc                                            [INFO   ]  Search path : /proj/applied_bioinformatics/users/x_erhar/MedBioinfo/data/merged_pairs
+[2024-05-29 10:01:44,894] multiqc                                            [INFO   ]  Search path : /proj/applied_bioinformatics/users/x_erhar/MedBioinfo/analyses/fastqc
+[2024-05-29 10:01:44,894] multiqc                                            [INFO   ]  Search path : /proj/applied_bioinformatics/users/x_erhar/MedBioinfo/analyses/x_erhar_flash2.log
+[2024-05-29 10:01:44,894] multiqc                                            [INFO   ]  Search path : /proj/applied_bioinformatics/users/x_erhar/MedBioinfo/analyses/bowtie
+[2024-05-29 10:01:44,894] multiqc                                            [INFO   ]  Search path : /proj/applied_bioinformatics/users/x_erhar/MedBioinfo/analyses/kraken2
+[2024-05-29 10:01:49,884] multiqc                                            [DEBUG  ]  Summary of files that were skipped by the search: [skipped_module_specific_max_filesize: 890] // [skipped_no_match: 120] // [skipped_ignore_pattern: 47] // [skipped_filesize_limit: 2]
+[2024-05-29 10:01:49,933] multiqc                                            [DEBUG  ]  No samples found: custom_content
+[2024-05-29 10:01:49,937] multiqc.modules.bowtie2.bowtie2                    [INFO   ]  Found 2 reports
+[2024-05-29 10:01:49,937] multiqc.utils.util_functions                       [DEBUG  ]  Wrote data file multiqc_bowtie2.txt
+[2024-05-29 10:01:50,435] multiqc.modules.kraken.kraken                      [INFO   ]  Found 14 reports
+[2024-05-29 10:01:50,631] multiqc.utils.util_functions                       [DEBUG  ]  Wrote data file multiqc_bracken.txt
+[2024-05-29 10:01:51,110] multiqc.modules.kraken.kraken                      [DEBUG  ]  Found negative 'other' count for ERR6913108_bracken_report (Domain): -921
+[2024-05-29 10:01:51,110] multiqc.modules.kraken.kraken                      [DEBUG  ]  Found negative 'other' count for ERR6913103_bracken_report (Domain): -921
+[2024-05-29 10:01:51,111] multiqc.modules.kraken.kraken                      [DEBUG  ]  Found negative 'other' count for ERR6913204_bracken_report (Domain): -921
+[2024-05-29 10:01:51,111] multiqc.modules.kraken.kraken                      [DEBUG  ]  Found negative 'other' count for ERR6913189_bracken_report (Domain): -921
+[2024-05-29 10:01:51,112] multiqc.modules.kraken.kraken                      [DEBUG  ]  Found negative 'other' count for ERR6913207_bracken_report (Domain): -921
+[2024-05-29 10:01:51,112] multiqc.modules.kraken.kraken                      [DEBUG  ]  Found negative 'other' count for ERR6913224_bracken_report (Domain): -921
+[2024-05-29 10:01:51,113] multiqc.modules.kraken.kraken                      [DEBUG  ]  Found negative 'other' count for ERR6913199_bracken_report (Domain): -921
+[2024-05-29 10:01:51,113] multiqc.modules.kraken.kraken                      [DEBUG  ]  Found negative 'other' count for ERR6913211_bracken_report (Domain): -921
+[2024-05-29 10:01:51,114] multiqc.modules.kraken.kraken                      [DEBUG  ]  Found negative 'other' count for ERR6913198_bracken_report (Domain): -921
+[2024-05-29 10:01:51,114] multiqc.modules.kraken.kraken                      [DEBUG  ]  Found negative 'other' count for ERR6913128_bracken_report (Domain): -921
+[2024-05-29 10:01:51,115] multiqc.modules.kraken.kraken                      [DEBUG  ]  Found negative 'other' count for ERR6913285_bracken_report (Domain): -921
+[2024-05-29 10:01:51,115] multiqc.modules.kraken.kraken                      [DEBUG  ]  Found negative 'other' count for ERR6913115_bracken_report (Domain): -921
+[2024-05-29 10:01:51,116] multiqc.modules.kraken.kraken                      [DEBUG  ]  Found negative 'other' count for ERR6913111_bracken_report (Domain): -921
+[2024-05-29 10:01:51,116] multiqc.modules.kraken.kraken                      [DEBUG  ]  Found negative 'other' count for ERR6913102_bracken_report (Domain): -921
+[2024-05-29 10:01:51,123] multiqc.modules.kraken.kraken                      [DEBUG  ]  Found negative 'other' count for ERR6913108_bracken_report (Root): -923
+[2024-05-29 10:01:51,123] multiqc.modules.kraken.kraken                      [DEBUG  ]  Found negative 'other' count for ERR6913103_bracken_report (Root): -923
+[2024-05-29 10:01:51,124] multiqc.modules.kraken.kraken                      [DEBUG  ]  Found negative 'other' count for ERR6913204_bracken_report (Root): -923
+[2024-05-29 10:01:51,124] multiqc.modules.kraken.kraken                      [DEBUG  ]  Found negative 'other' count for ERR6913189_bracken_report (Root): -923
+[2024-05-29 10:01:51,125] multiqc.modules.kraken.kraken                      [DEBUG  ]  Found negative 'other' count for ERR6913207_bracken_report (Root): -923
+[2024-05-29 10:01:51,125] multiqc.modules.kraken.kraken                      [DEBUG  ]  Found negative 'other' count for ERR6913224_bracken_report (Root): -923
+[2024-05-29 10:01:51,126] multiqc.modules.kraken.kraken                      [DEBUG  ]  Found negative 'other' count for ERR6913199_bracken_report (Root): -923
+[2024-05-29 10:01:51,126] multiqc.modules.kraken.kraken                      [DEBUG  ]  Found negative 'other' count for ERR6913211_bracken_report (Root): -923
+[2024-05-29 10:01:51,127] multiqc.modules.kraken.kraken                      [DEBUG  ]  Found negative 'other' count for ERR6913198_bracken_report (Root): -923
+[2024-05-29 10:01:51,127] multiqc.modules.kraken.kraken                      [DEBUG  ]  Found negative 'other' count for ERR6913128_bracken_report (Root): -923
+[2024-05-29 10:01:51,128] multiqc.modules.kraken.kraken                      [DEBUG  ]  Found negative 'other' count for ERR6913285_bracken_report (Root): -923
+[2024-05-29 10:01:51,128] multiqc.modules.kraken.kraken                      [DEBUG  ]  Found negative 'other' count for ERR6913115_bracken_report (Root): -923
+[2024-05-29 10:01:51,129] multiqc.modules.kraken.kraken                      [DEBUG  ]  Found negative 'other' count for ERR6913111_bracken_report (Root): -923
+[2024-05-29 10:01:51,129] multiqc.modules.kraken.kraken                      [DEBUG  ]  Found negative 'other' count for ERR6913102_bracken_report (Root): -923
+[2024-05-29 10:01:51,196] multiqc.modules.kraken.kraken                      [INFO   ]  Found 14 reports
+[2024-05-29 10:01:51,248] multiqc.utils.util_functions                       [DEBUG  ]  Wrote data file multiqc_kraken.txt
+[2024-05-29 10:01:52,264] multiqc.modules.fastqc.fastqc                      [INFO   ]  Found 28 reports
+[2024-05-29 10:01:52,265] multiqc.utils.util_functions                       [DEBUG  ]  Wrote data file multiqc_fastqc.txt
+[2024-05-29 10:01:52,390] multiqc.plots.plotly.heatmap                       [DEBUG  ]  Resizing from 450x728 to fit the maximum size 900x500
+[2024-05-29 10:01:52,390] multiqc.plots.plotly.heatmap                       [DEBUG  ]  Heatmap size: 900x500, px per element: 90.00x17.86
+[2024-05-29 10:01:52,406] multiqc.modules.flash.flash                        [INFO   ]  Found 14 log reports
+[2024-05-29 10:01:52,414] multiqc.utils.util_functions                       [DEBUG  ]  Wrote data file multiqc_flash_combo_stats.txt
+[2024-05-29 10:01:52,421] multiqc.modules.flash.flash                        [INFO   ]  Found 14 histogram reports
+[2024-05-29 10:01:52,432] multiqc.utils.software_versions                    [DEBUG  ]  Reading software versions from config.software_versions
+[2024-05-29 10:01:52,434] multiqc.utils.util_functions                       [DEBUG  ]  Wrote data file multiqc_software_versions.txt
+[2024-05-29 10:01:52,522] multiqc.utils.util_functions                       [DEBUG  ]  Wrote data file multiqc_general_stats.txt
+[2024-05-29 10:01:52,523] multiqc                                            [DEBUG  ]  Compressing plot data
+[2024-05-29 10:01:54,895] multiqc.utils.util_functions                       [DEBUG  ]  Wrote data file multiqc_data.json
+[2024-05-29 10:01:54,895] multiqc                                            [INFO   ]  Report      : x_erharh-all-kraken2_multiqc_report.html
+[2024-05-29 10:01:54,896] multiqc                                            [INFO   ]  Data        : x_erharh-all-kraken2_multiqc_report_data
+[2024-05-29 10:01:54,896] multiqc                                            [DEBUG  ]  Moving data file from '/tmp/tmppr1ul19o/multiqc_data' to '/proj/applied_bioinformatics/users/x_erhar/MedBioinfo/x_erharh-all-kraken2_multiqc_report_data'
+[2024-05-29 10:01:55,200] multiqc                                            [DEBUG  ]  Full report path: /proj/applied_bioinformatics/users/x_erhar/MedBioinfo/x_erharh-all-kraken2_multiqc_report.html
+[2024-05-29 10:01:55,383] multiqc                                            [INFO   ]  MultiQC complete
