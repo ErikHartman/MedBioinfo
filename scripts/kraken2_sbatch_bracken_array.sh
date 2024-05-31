@@ -25,6 +25,7 @@ accnum=$(sed -n "$SLURM_ARRAY_TASK_ID"p ${accnum_file})
 data_1="${datadir}/${accnum}.flash.notCombined_1.fastq.gz"
 data_2="${datadir}/${accnum}.flash.notCombined_2.fastq.gz"
 
+# Run kraken
 srun --cpus-per-task=1 --time=00:60:00 --job-name=kraken2_${accnum} \
     singularity exec -B /proj:/proj $kraken_img kraken2 --db $kraken_db \
     --threads 1 --paired --gzip-compressed \
@@ -32,6 +33,7 @@ srun --cpus-per-task=1 --time=00:60:00 --job-name=kraken2_${accnum} \
     --output /proj/applied_bioinformatics/users/x_erhar/MedBioinfo/analyses/kraken2/${accnum}_analysis.txt \
     $data_1 $data_2
 
+# Run bracken
 srun --cpus-per-task=1 --time=00:60:00 --job-name=bracken_${accnum} \
     singularity exec -B /proj:/proj $kraken_img bracken -d $kraken_db \
     -i /proj/applied_bioinformatics/users/x_erhar/MedBioinfo/analyses/kraken2/${accnum}_report.txt \

@@ -5,6 +5,3 @@ sqlite3 -batch -separator "|" /proj/applied_bioinformatics/common_data/sample_co
     ".import kraken2_vs_viral.sacct kraken2_viral_resources_used"
 
 sqlite3 -box -batch /proj/applied_bioinformatics/common_data/sample_collab.db "select * from kraken2_viral_resources_used where JobID like '35185752%';"
-
-
-# This is the working one 35185752
