@@ -1,4 +1,7 @@
 # MedBioinfo 2023 Applied Bioinformatics
+
+The repo for the analysis conducted during the MedBioinfo course in applied bioinformatics (may 2024) by me (Erik Hartman).
+
 ## repo for re-analysis
 
 ### Data source

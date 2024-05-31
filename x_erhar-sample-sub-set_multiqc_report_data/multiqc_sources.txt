@@ -1,0 +1,32 @@
+Module	Section	Sample Name	Source
+Bowtie 2 / HiSAT2	all_sections	x_erhar_bowtie_merged2PhiX	/proj/applied_bioinformatics/users/x_erhar/MedBioinfo/analyses/bowtie/x_erhar_bowtie_merged2PhiX.log
+Bowtie 2 / HiSAT2	all_sections	x_erhar_bowtie_merged2SC2	/proj/applied_bioinformatics/users/x_erhar/MedBioinfo/analyses/bowtie/x_erhar_bowtie_merged2SC2.log
+FastQC	all_sections	ERR6913103_1	/proj/applied_bioinformatics/users/x_erhar/MedBioinfo/analyses/fastqc/ERR6913103_1_fastqc.zip
+FastQC	all_sections	ERR6913115_2	/proj/applied_bioinformatics/users/x_erhar/MedBioinfo/analyses/fastqc/ERR6913115_2_fastqc.zip
+FastQC	all_sections	ERR6913224_2	/proj/applied_bioinformatics/users/x_erhar/MedBioinfo/analyses/fastqc/ERR6913224_2_fastqc.zip
+FastQC	all_sections	ERR6913102_1	/proj/applied_bioinformatics/users/x_erhar/MedBioinfo/analyses/fastqc/ERR6913102_1_fastqc.zip
+FastQC	all_sections	ERR6913204_2	/proj/applied_bioinformatics/users/x_erhar/MedBioinfo/analyses/fastqc/ERR6913204_2_fastqc.zip
+FastQC	all_sections	ERR6913285_1	/proj/applied_bioinformatics/users/x_erhar/MedBioinfo/analyses/fastqc/ERR6913285_1_fastqc.zip
+FastQC	all_sections	ERR6913115_1	/proj/applied_bioinformatics/users/x_erhar/MedBioinfo/analyses/fastqc/ERR6913115_1_fastqc.zip
+FastQC	all_sections	ERR6913198_1	/proj/applied_bioinformatics/users/x_erhar/MedBioinfo/analyses/fastqc/ERR6913198_1_fastqc.zip
+FastQC	all_sections	ERR6913204_1	/proj/applied_bioinformatics/users/x_erhar/MedBioinfo/analyses/fastqc/ERR6913204_1_fastqc.zip
+FastQC	all_sections	ERR6913224_1	/proj/applied_bioinformatics/users/x_erhar/MedBioinfo/analyses/fastqc/ERR6913224_1_fastqc.zip
+FastQC	all_sections	ERR6913207_2	/proj/applied_bioinformatics/users/x_erhar/MedBioinfo/analyses/fastqc/ERR6913207_2_fastqc.zip
+FastQC	all_sections	ERR6913207_1	/proj/applied_bioinformatics/users/x_erhar/MedBioinfo/analyses/fastqc/ERR6913207_1_fastqc.zip
+FastQC	all_sections	ERR6913199_2	/proj/applied_bioinformatics/users/x_erhar/MedBioinfo/analyses/fastqc/ERR6913199_2_fastqc.zip
+FastQC	all_sections	ERR6913198_2	/proj/applied_bioinformatics/users/x_erhar/MedBioinfo/analyses/fastqc/ERR6913198_2_fastqc.zip
+FastQC	all_sections	ERR6913189_1	/proj/applied_bioinformatics/users/x_erhar/MedBioinfo/analyses/fastqc/ERR6913189_1_fastqc.zip
+FastQC	all_sections	ERR6913189_2	/proj/applied_bioinformatics/users/x_erhar/MedBioinfo/analyses/fastqc/ERR6913189_2_fastqc.zip
+FastQC	all_sections	ERR6913128_1	/proj/applied_bioinformatics/users/x_erhar/MedBioinfo/analyses/fastqc/ERR6913128_1_fastqc.zip
+FastQC	all_sections	ERR6913102_2	/proj/applied_bioinformatics/users/x_erhar/MedBioinfo/analyses/fastqc/ERR6913102_2_fastqc.zip
+FastQC	all_sections	ERR6913111_2	/proj/applied_bioinformatics/users/x_erhar/MedBioinfo/analyses/fastqc/ERR6913111_2_fastqc.zip
+FastQC	all_sections	ERR6913128_2	/proj/applied_bioinformatics/users/x_erhar/MedBioinfo/analyses/fastqc/ERR6913128_2_fastqc.zip
+FastQC	all_sections	ERR6913103_2	/proj/applied_bioinformatics/users/x_erhar/MedBioinfo/analyses/fastqc/ERR6913103_2_fastqc.zip
+FastQC	all_sections	ERR6913108_1	/proj/applied_bioinformatics/users/x_erhar/MedBioinfo/analyses/fastqc/ERR6913108_1_fastqc.zip
+FastQC	all_sections	ERR6913211_2	/proj/applied_bioinformatics/users/x_erhar/MedBioinfo/analyses/fastqc/ERR6913211_2_fastqc.zip
+FastQC	all_sections	ERR6913108_2	/proj/applied_bioinformatics/users/x_erhar/MedBioinfo/analyses/fastqc/ERR6913108_2_fastqc.zip
+FastQC	all_sections	ERR6913285_2	/proj/applied_bioinformatics/users/x_erhar/MedBioinfo/analyses/fastqc/ERR6913285_2_fastqc.zip
+FastQC	all_sections	ERR6913211_1	/proj/applied_bioinformatics/users/x_erhar/MedBioinfo/analyses/fastqc/ERR6913211_1_fastqc.zip
+FastQC	all_sections	ERR6913111_1	/proj/applied_bioinformatics/users/x_erhar/MedBioinfo/analyses/fastqc/ERR6913111_1_fastqc.zip
+FastQC	all_sections	ERR6913199_1	/proj/applied_bioinformatics/users/x_erhar/MedBioinfo/analyses/fastqc/ERR6913199_1_fastqc.zip
+FLASh	all_sections	x_erhar_flash2	/proj/applied_bioinformatics/users/x_erhar/MedBioinfo/analyses/x_erhar_flash2.log

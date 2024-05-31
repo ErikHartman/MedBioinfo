@@ -48,16 +48,19 @@ df_merged = df_job.merge(df_reads, left_on="accession", right_on="run_accession"
 
 df_merged["read_count"] = df_merged["read_count"].astype(float)
 df_merged["CPUTimeRAW"] = df_merged["CPUTimeRAW"].astype(float)
+df_merged["normCPUTimeRAW"] = df_merged["CPUTimeRAW"].astype(float) / df_merged["ReqCPUS"].astype(float)
 
 print(df_merged)
 print(df_merged.columns)
-fig, axs = plt.subplots(1,2)
+fig, axs = plt.subplots(1,3, figsize=(15,5))
 
 sns.scatterplot(df_merged[df_merged["kraken_or_bracken"] == "kraken2"] ,x="read_count", y="CPUTimeRAW", ax=axs[0], hue="ReqCPUS")
-sns.scatterplot(df_merged[df_merged["kraken_or_bracken"] == "bracken"] ,x="read_count", y="CPUTimeRAW", ax=axs[1])
+sns.scatterplot(df_merged[df_merged["kraken_or_bracken"] == "kraken2"] ,x="read_count", y="normCPUTimeRAW", ax=axs[1], hue="ReqCPUS")
+sns.scatterplot(df_merged[df_merged["kraken_or_bracken"] == "bracken"] ,x="read_count", y="normCPUTimeRAW", ax=axs[2], hue="ReqCPUS")
 
 axs[0].set_title("Kraken2")
-axs[1].set_title("Bracken")
+axs[1].set_title("Kraken2 norm")
+axs[2].set_title("Bracken")
 
 
 plt.savefig("counts_v_raw_kraken.png")

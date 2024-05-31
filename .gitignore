@@ -7,3 +7,4 @@ data/sra_fastq
 *.sam
 .venv
 *.sif
+blob
